@@ -1,0 +1,30 @@
+MODEL:
+  TYPE: UNETV2
+  LOAD: /home/rudolfmaxx/projects/MulitpleHSSR/log/CSCV2_E_SHARED_FT_unshared/BestPSNR.pth
+  LOAD_BB: /home/rudolfmaxx/projects/MulitpleHSSR/log/CSCV2_E_SHARED_FT_unshared/BestPSNR.pth
+
+TRAIN:
+  LOG: log/CSCV2_E_SHARED_FT_unshared_2
+  LOSS: ['MSE', 1.0, 'WD_ERR_FEAT', 0.33]
+  # LOSS: ['MSE', 1.0]
+  ITERS: 60000
+  OPTIMIZER: adam
+  LR: 5e-5
+  WARMUP: False
+  SWA:
+    START: 80000
+    LR: 2e-6
+
+DATASET:
+  NAME: ARAD_RE
+  ROOT: /mnt/data/ARAD
+  PRELOAD: True
+  TRANSFORMS:
+    NORMAL_RGB_MEAN: [0.485, 0.456, 0.406]
+    NORMAL_RGB_STD: [0.229, 0.224, 0.225]
+    RANDOM_CROP: 224
+  BATCH_SIZE: 6
+
+# VALIDATE_PAD: [0,0,15,15]
+VALIDATE_PAD: [-1,-1,-1,-1]
+# VALIDATE_PATCH: 256
