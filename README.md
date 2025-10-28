@@ -119,6 +119,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 We thank [acknowledgments, funding sources, etc.]. -->
 
+## TODO
+
+- [ ] Upload the preprocessed data
+- [ ] Upload the pre-trained model
+
 ## Contact
 
 For questions or issues, please contact:
