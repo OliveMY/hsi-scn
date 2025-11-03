@@ -53,8 +53,8 @@ python preprocess.py --input_dir /path/to/raw/data --output_dir /path/to/process
 
 We provide pre-processed datasets used in our experiments:
 
-- **[ARAD]**: [Download Link - PLACEHOLDER]
-- **[ICVL]**: [Coming_up_soon]
+- **[ARAD]**: [Jianguo Cloud](https://www.jianguoyun.com/p/DX8QtacQs57pDRjyvJAGIAA)
+- **[ICVL]**: [Jianguo Cloud](https://www.jianguoyun.com/p/DSABIHIQs57pDRj7vJAGIAA)
 
 Extract the downloaded datasets to the `./preprocessed_data` directory.
 
@@ -86,8 +86,8 @@ We provide pre-trained models for the following configurations:
 
 | Model  | Dataset | PSNR | SSIM | Download |
 |-------|---------|------|------|----------|
-| HSISCN-ARAD | ARAD | 39.24 dB | 0.9874 | [Link - PLACEHOLDER] |
-| HSISCN-ICVL | ICVL | 44.88 dB | 0.9960 | [Link - PLACEHOLDER] |
+| HSISCN-ARAD | ARAD | 39.24 dB | 0.9874 | [Link - Jianguo Cloud](https://www.jianguoyun.com/p/DWfjiKQQs57pDRiWvZAGIAA) |
+| HSISCN-ICVL | ICVL | 44.88 dB | 0.9960 | [Link - Jianguo Cloud](https://www.jianguoyun.com/p/Df_Z11YQs57pDRiavZAGIAA) |
 
 Download the pre-trained models and place them in the `./checkpoints` directory.
 
