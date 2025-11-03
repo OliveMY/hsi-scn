@@ -121,8 +121,8 @@ We thank [acknowledgments, funding sources, etc.]. -->
 
 ## TODO
 
-- [ ] Upload the preprocessed data
-- [ ] Upload the pre-trained model
+- [x] Upload the preprocessed data
+- [x] Upload the pre-trained model
 
 ## Contact
 
